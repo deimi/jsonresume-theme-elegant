@@ -973,6 +973,10 @@ body {
   margin-left: 0;
 }
 @media print {
+  .background-card {
+    border: none;
+  }
+  
   a[href]:after {
     content: none !important;
   }
