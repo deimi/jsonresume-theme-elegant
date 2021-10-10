@@ -672,6 +672,8 @@ body {
 }
 .social-link-label {
   display: none;
+  font-size: 0.9em;
+  vertical-align: middle;
 }
 .link-github {
   color: #454545;
@@ -976,6 +978,10 @@ body {
   .background-card {
     border: none;
   }
+
+  .profile-card {
+    border: none;
+  }
   
   a[href]:after {
     content: none !important;
@@ -1013,11 +1019,15 @@ body {
   }
   .social-link-icon {
     padding-right: 5px;
-    font-size: 1.33333333em;
+    font-size: 14px;
     line-height: .75em;
     vertical-align: -15%;
   }
   .social-link-label {
     display: inline-block;
+    vertical-align: 10%;
+  }
+  .fs-2x {
+    font-size: 1.7em;
   }
 }
