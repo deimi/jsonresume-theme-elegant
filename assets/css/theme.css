@@ -995,9 +995,6 @@ body {
     display: inline-block;
     vertical-align: middle;
   }
-  .profile-pic img {
-    border-radius: 0;
-  }
   .name-and-profession {
     display: inline-block;
     vertical-align: middle;
