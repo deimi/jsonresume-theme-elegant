@@ -56,7 +56,7 @@ section.col-md-3.card-wrapper.profile-card-wrapper.affix
         +profile_card_detail("icon-mail")
           a.link-disguise(href="mailto:" + resume.basics.email, itemprop="email")= resume.basics.email
       if resume.basics.website
-        +profile_card_detail("icon-link")
+        +profile_card_detail("icon-profile")
           a(href=resume.basics.website, target="_blank")= resume.basics.website
       if resume.basics.languages
         +profile_card_detail('icon-language', resume.basics.languages, null, 'Languages I speak')
