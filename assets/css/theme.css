@@ -26,42 +26,42 @@
 
 .icon-gitlab .path1:before {
   content: "\e906";
-  color: rgb(252, 109, 38);
+  color: rgb(252, 109, 38) !important;
 }
 .icon-gitlab .path2:before {
   content: "\e907";
   margin-left: -1em;
-  color: rgb(226, 67, 41);
+  color: rgb(226, 67, 41) !important;
 }
 .icon-gitlab .path3:before {
   content: "\e908";
   margin-left: -1em;
-  color: rgb(252, 109, 38);
+  color: rgb(252, 109, 38) !important;
 }
 .icon-gitlab .path4:before {
   content: "\e909";
   margin-left: -1em;
-  color: rgb(252, 163, 38);
+  color: rgb(252, 163, 38) !important;
 }
 .icon-gitlab .path5:before {
   content: "\e90a";
   margin-left: -1em;
-  color: rgb(226, 67, 41);
+  color: rgb(226, 67, 41) !important;
 }
 .icon-gitlab .path6:before {
   content: "\e90b";
   margin-left: -1em;
-  color: rgb(252, 109, 38);
+  color: rgb(252, 109, 38) !important;
 }
 .icon-gitlab .path7:before {
   content: "\e90c";
   margin-left: -1em;
-  color: rgb(252, 163, 38);
+  color: rgb(252, 163, 38) !important;
 }
 .icon-gitlab .path8:before {
   content: "\e90d";
   margin-left: -1em;
-  color: rgb(226, 67, 41);
+  color: rgb(226, 67, 41) !important;
 }
 .icon-meetup .path1:before {
   content: "\e901";
@@ -121,6 +121,7 @@
 }
 .icon-circle:before {
   content: "\f111";
+  color: unset !important;
 }
 .icon-code:before {
   content: "\f121";
@@ -269,7 +270,7 @@
 }
 .label-keyword {
   display: inline-block;
-  background: #7eb0db;
+  background: #7eb0db !important;
   color: white;
   font-size: 0.9em;
   padding: 5px;
@@ -281,6 +282,7 @@
 }
 .label-keyword p {
   margin: 0;
+  color: white !important;
 }
 .label-keyword a {
   color: white;
@@ -462,7 +464,7 @@ body {
 }
 .current-event {
   font-size: 8px;
-  color: #5ACE24;
+  color: #5ACE24 !important;
   position: absolute;
   right: 100%;
   top: 4px;
@@ -1029,5 +1031,14 @@ body {
   }
   .fs-2x {
     font-size: 1.7em;
+    color: #454545 !important;
+  }
+
+  .label-keyword {
+    color: #505050 !important;
+  }
+
+  .label-keyword p {
+    color: #505050 !important;
   }
 }
